@@ -91,6 +91,13 @@ transform: translate(-50%,-50%);
   background: -webkit-linear-gradient(#ffffff, #c549ff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  width: max-content;
   line-height: 50px;
+}
+@media screen and (max-width: 576px) {
+h1{
+  width: 100%;
+  font-size: 17px;
+
+  line-height: 35px;
+}
 }
