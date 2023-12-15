@@ -95,7 +95,7 @@ transform: translate(-50%,-50%);
 }
 @media screen and (max-width: 576px) {
 h1{
-  width: 80%;
+  width: fit-content;
   font-size: 17px;
   line-height: 35px;
 }
